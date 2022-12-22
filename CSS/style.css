@@ -1,0 +1,299 @@
+
+/* Body */
+
+body{
+    font-family: "Montserrat";
+}
+
+/* Title-Section  */
+
+#title{
+    background-color: #f33b57;
+    padding: 2% 15% 0;
+    color: white;
+}
+/* Nav --> */
+
+/* Nav Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+/* Nav Brand */
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+/* Nav Items */
+
+.nav-item{
+    padding-right: 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat";
+    font-weight:100;
+    font-size: 1.2rem;
+}
+
+/* Title --> */
+
+/* Heading 1 */
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Download Butons */
+
+.download-button{
+    margin: 5% 3% 10% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.titleImg{
+    position: relative;
+    height: 28.125rem;
+}
+
+
+
+
+
+
+/* Features--> */
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+}
+
+/* Features Items */
+
+.feature-items{
+    height:fit-content;
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-items > p{
+    color: #8f8f8f;
+    margin: 0;
+
+}
+
+.fa-feature{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.fa-feature:hover{
+    color: #f33b57;
+}
+
+/* Heading 3 */
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Testimonials------------> */
+
+/* Testimonials */
+
+#testimonials, #press{
+    background-color: #ef8172;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+.testimonial-content{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.carousel-item > h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 8%;
+}
+
+.carousel-indicators{
+   margin-bottom: 3%;
+}
+
+#press{
+    padding: 3% 0 5% 0;
+}
+
+.press-content{
+    text-align: center;
+}
+
+.press-images{
+    width: 10%;
+    margin: 0 5%;
+}
+
+
+/* Pricing ----> */
+
+.card-container{
+    padding: 5% 15%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.price-header{
+    padding: 7% 15% 0;
+    text-align: center;
+    font-family: "Montserrat";
+    line-height: 1.5;
+}
+
+.price-header > h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+/* CTA -----> */
+
+#cta{
+    background-color: #f33b57;
+    padding: 0 15% 9%;
+    text-align: center;
+    color: white;
+}
+
+#cta > h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: 7% 0 5%;
+}
+
+.download-btn{
+    margin: 1%;
+}
+
+/* Footer ------> */
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer > i{
+    margin: 1%;
+}
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    #title{
+        padding: 7%;
+        height: 600px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    #testimonials h2{
+        font-size: 1.5rem;
+    }
+    #cta > h3{
+        font-size: 2.5rem;
+    }
+    .card-container{
+        padding: 5% 10%;
+    }
+}
+
+
+@media (max-width: 768px) and (min-width: 427px) {
+    .title-image{
+        position: static;
+        width: 40%;
+        transform: rotate(0);
+    }
+    .title{
+        text-align: center;
+    }
+    .carousel-item > h2{
+        font-size: 1.3rem;
+    }
+    .carousel-item{
+        margin-bottom: 5%;
+    }
+    #cta > h3{
+        font-size: 2rem;
+    }
+
+
+}
+
+@media (max-width: 426px){
+    h1{
+        font-size: 2rem;
+    }
+    .title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    .titleImg{
+        height: 100%;
+        padding: 7% 0;
+    }
+    .carousel-item > h2{
+        font-size: 0.8rem;
+    }
+    .testimonial-image{
+        width: 25%;
+    }
+    .carousel-item{
+        margin-bottom: 10%;
+    }
+    .price-header > h2{
+        font-size: 2rem;
+    }
+    .card-container{
+        padding: 5% 10%;
+    }
+    #cta > h3{
+        font-size: 1.5rem;
+    }
+    .download-button {
+        margin: 5% 3% 3% 0;
+    }
+    .download-btn{
+        height: 20%;
+        margin: 3% 0;
+    }
+}
